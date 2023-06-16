@@ -1,0 +1,36 @@
+the point of h1-h6 is not a matter of a size and boldness.
+especially with css
+
+<style> in css: how to custom-style html
+if it's a tag, the class format is
+    tag {
+        width: 60%;
+        color: blue;
+    }
+if it goes by id, then it
+    #id {
+        same;...
+    }
+<h1> is for the name that goes on tabs
+    <ol> makes ordered lists
+        <ul> is the top of a bullet point list
+
+<h2>Semantic tags</h2>
+Using semantic tags, even though the come with default
+            rules, we can change the rules 
+            but anyway it's a matter of orgnazing the page
+            to apply the same rules all at once
+article, aside, details, figure,
+figcaption, header, time, footer, main
+mark, nav, section, summary
+
+<h2> coding hyperlinks</h2>
+<a href="http://www.google.com/">Google</a>
+<a href="#conclusion">Conclusion</a>
+sends to <a id="conlusion"><!--leave the tag empty--></a>
+can add target <a href="" target="_blank">link here</a>
+for email, <a href="mailto:zalman@gmail.com"></a>
+_blank	Opens the linked document in a new window or tab
+_self	Opens the linked document in the same frame as it was clicked (this is default)
+_parent	Opens the linked document in the parent frame
+_top	Opens the linked document in the full body of the window
