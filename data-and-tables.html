@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        thead {
+            background-color: black;
+            color: aquamarine;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        table, caption {
+            border-collapse: collapse;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .odd {
+            background-color: gray;
+        }
+
+        tr:hover {
+            background-color: black;
+            color: blueviolet;
+        }
+
+        tr:active {
+            background-color: blue;
+            color:aliceblue;
+        }
+
+        .odd:hover {
+            background-color: white;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- don't do <table border="1"> for a 1 pixel border px-->
+        <thead>
+        <tr class="odd">
+            <!--table heading, denoted with <th>-->
+            <th>Name</th>
+            <th>Makom</th>
+            <th>Specialty</th>
+        </tr>
+        </thead>
+        <tr>
+            <!--Example of a data row, denoted with <td>-->
+            <td>Reb Meir</td>
+            <td>EY</td>
+            <td>Halacha</td>
+        </tr>
+        <tr class="odd">
+            <!--Example of a data row, denoted with <td>-->
+            <td>Reb Yosi</td>
+            <td>EY</td>
+            <td>Halacha</td>
+        </tr>
+        <tr>
+            <!--Example of a data row, denoted with <td>-->
+            <td>Reb Yochanan</td>
+            <td>EY from Bavel</td>
+            <td>Hashkafa</td>
+        </tr>
+    </table>
+</body>
+</html>
