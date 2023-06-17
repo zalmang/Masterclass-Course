@@ -1,0 +1,27 @@
+forms!!!
+<form>
+tags within <form action="" method="">
+
+action decides how to process the information. written in thp
+    or any other server-side language
+method decides how the information is delivered. can be POST or GET
+GET is visible to the URL. POST is not
+
+<label> element with tag for="" 
+<input> tag type="" and id"" IMPORTANT <input> is self-enclosed
+    more tags: placeholer="...."
+options for type="": text, radio, checkbox date
+
+
+
+IMPORTANT: for from <form> and id from <label> must match up
+
+different type="" types: text, email
+
+Limiting form options:
+<select> element for a <form>. Remember. Needs a lable
+<select> represents a drop-down. The </select> tag goes after all of
+    the <option>'s
+
+Options are represented by <option>'s
+<option> tags: value="". Represents what's sent back with the form

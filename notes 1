@@ -23,6 +23,9 @@ learned about sudoclasses
     style settings go here....
 }
 
+GOOD TO KNOW: also works with #id:hover
+
+
 <h1> is for the name that goes on tabs
     <ol> makes ordered lists
         <ul> is the top of a bullet point list
